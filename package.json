@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +36,37 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "eslint": "^8.34.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-styled-components-a11y": "^0.1.0",
+    "prettier": "^2.8.4"
+  },
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "skyran.js-jsx-snippets",
+    "esbenp.prettier-vscode",
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "jonkwheeler.styled-components-snippets",
+    "jpoissonnier.vscode-styled-components",
+    "shd101wyy.markdown-preview-enhanced",
+    "silvenon.mdx",
+    "cssho.vscode-svgviewer",
+    "ban.spellright"
+  ],
+  "unwantedRecommendations": []
 }
