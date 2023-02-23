@@ -1,16 +1,9 @@
+import React from "react";
 import "./App.css";
-import { Container } from "./styles/container.styled";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Container>
-        <h1>Hello World</h1>
-      </Container>
-    </>
-  );
+  return <Header />;
 }
 
 export default App;
