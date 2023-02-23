@@ -1,11 +1,17 @@
 import React from "react";
+import logo from "../../assets/logo.png";
+import shoppingcartoutline from "../../assets/svg/shoppingcartoutline.svg";
+import { HeaderContainer, ShoppingCartIcon } from "../../styles/Header.styled";
 
-const Header = () => {
+function Header() {
   return (
-    <header className="header">
-      <img src="assets/logo.png" alt="logo" />
-    </header>
+    <HeaderContainer>
+      <img src={logo} alt="logo" />
+      <ShoppingCartIcon>
+        <img src={shoppingcartoutline} alt="shoppingcartoutline" />
+      </ShoppingCartIcon>
+    </HeaderContainer>
   );
-};
+}
 
 export default Header;
