@@ -1,18 +1,17 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
-import { HeaderContainer } from "./styles/Header.styled";
 import GlobalStyle from "./styles/App.styled";
+import Navbar from "./components/Navbar/Navbar";
 
-function App() {
+function Homepage() {
   return (
     <>
       <GlobalStyle />
-      <HeaderContainer>
-        <Header />
-      </HeaderContainer>
+      <Header />
+      <Navbar />
     </>
   );
 }
 
-export default App;
+export default Homepage;
