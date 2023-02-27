@@ -29,7 +29,7 @@ export const LogoContainer = styled.div`
 export const ShoppingCartContainer = styled.div`
   p {
     position: fixed;
-    top: 10px;
+    top: 25px;
     right: 200px;
     color: ${Theme.colors.secondary};
   }

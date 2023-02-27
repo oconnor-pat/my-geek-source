@@ -10,10 +10,11 @@ export const NavbarContainer = styled.div`
   margin-right: 100px;
   background-color: ${Theme.colors.secondary};
   width: auto;
-  height: 25px;
+  height: 50px;
 
   li {
     display: inline-block;
+    top: 10px;
     margin: 0 10px;
     padding: 0 10px;
     position: relative;

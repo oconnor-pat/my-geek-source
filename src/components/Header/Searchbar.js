@@ -10,6 +10,7 @@ function ProductSearch() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // API call to search for products
+    // eslint-disable-next-line no-console
     console.log(`Search for ${searchTerm}`);
   };
 
