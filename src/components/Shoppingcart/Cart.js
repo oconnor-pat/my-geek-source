@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ShoppingCart() {
+function Cart() {
   const [cartItems, setCartItems] = useState(null);
 
   const addCartItems = 1;
@@ -25,5 +25,5 @@ function ShoppingCart() {
   );
 }
 
-export const cartItems = ShoppingCart;
-export default ShoppingCart;
+export const cartItems = Cart;
+export default Cart;

@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import GlobalStyle from "./styles/App.styled";
 import Navbar from "./components/Navbar/Navbar";
 import Heroimage from "./components/Heroimage";
+import FeaturedProducts from "./components/Featuredproducts";
 
 function Homepage() {
   return (
@@ -12,6 +13,7 @@ function Homepage() {
       <Header />
       <Navbar />
       <Heroimage />
+      <FeaturedProducts />
     </>
   );
 }

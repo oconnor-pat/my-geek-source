@@ -13,14 +13,10 @@ export const HeaderContainer = styled.div`
 `;
 
 export const LogoContainer = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-
   img {
-    position: absolute;
+    position: relative;
     top: 0px;
-    left: 130px;
+    left: 30px;
     width: 150px;
     height: 70px;
   }
@@ -28,10 +24,12 @@ export const LogoContainer = styled.div`
 
 export const ShoppingCartContainer = styled.div`
   p {
-    position: fixed;
+    display: inline-block;
+    text-align: center;
     top: 25px;
     right: 200px;
     color: ${Theme.colors.secondary};
+    position: absolute;
   }
 
   img {
@@ -44,7 +42,7 @@ export const ShoppingCartContainer = styled.div`
 `;
 
 export const SearchfieldContainer = styled.div`
-  position: fixed;
+  position: absolute;
   top: 25px;
   left: 350px;
   width: 300px;

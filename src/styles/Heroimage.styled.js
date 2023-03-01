@@ -12,10 +12,10 @@ export const HeroimageContainer = styled.div`
   padding-top: 0;
 
   img {
+    display: block;
     width: 100%;
     height: 425px;
     opacity: 0.5;
-    position: relative;
   }
 
   h1 {
@@ -41,9 +41,9 @@ export const HeroimageContainer = styled.div`
 
   button {
     position: absolute;
-    top: 400px;
+    top: 425px;
     left: 100px;
-    width: 150px;
+    width: 225px;
     height: 50px;
     background-color: ${Theme.colors.secondary};
     color: ${Theme.colors.white};
@@ -54,4 +54,32 @@ export const HeroimageContainer = styled.div`
     cursor: pointer;
     z-index: 1;
   }
+`;
+
+export const BsIconsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-left: 110px;
+  padding-right: 110px;
+`;
+
+export const BsIconsWrapper = styled.div`
+  display: flex;
+  font-size: 70px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+`;
+
+export const BsIconsText = styled.p`
+  display: flex;
+  color: ${Theme.colors.white};
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
 `;

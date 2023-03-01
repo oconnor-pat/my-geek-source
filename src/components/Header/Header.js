@@ -7,12 +7,9 @@ import {
   SearchfieldContainer,
   ShoppingCartContainer,
 } from "../../styles/Header.styled";
-import { cartItems } from "../Shoppingcart/Cart";
 import Searchbar from "./Searchbar";
 
 function Header() {
-  const cartValue = cartItems();
-
   return (
     <>
       <HeaderContainer>
@@ -23,7 +20,7 @@ function Header() {
           <Searchbar />
         </SearchfieldContainer>
         <ShoppingCartContainer>
-          <p>{cartValue}</p>
+          <p>0 items in your cart</p>
           <img src={shoppingcartoutline} alt="shoppingcartoutline" />
         </ShoppingCartContainer>
       </HeaderContainer>
