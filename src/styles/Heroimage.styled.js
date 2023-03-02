@@ -21,7 +21,7 @@ export const HeroimageContainer = styled.div`
   h1 {
     position: absolute;
     top: 300px;
-    left: 100px;
+    left: 150px;
     color: #fff;
     font-size: 50px;
     font-weight: 300;
@@ -31,7 +31,7 @@ export const HeroimageContainer = styled.div`
   p {
     position: absolute;
     top: 350px;
-    left: 100px;
+    left: 155px;
     color: #fff;
     font-size: 20px;
     font-weight: 300;
@@ -42,7 +42,7 @@ export const HeroimageContainer = styled.div`
   button {
     position: absolute;
     top: 425px;
-    left: 100px;
+    left: 150px;
     width: 225px;
     height: 50px;
     background-color: ${Theme.colors.secondary};
@@ -59,7 +59,7 @@ export const HeroimageContainer = styled.div`
 export const BsIconsContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 100px;

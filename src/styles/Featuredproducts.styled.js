@@ -1,18 +1,30 @@
 import styled from "styled-components";
-// eslint-disable-next-line no-unused-vars
 import { Theme } from "../constants/colors";
 
 export const FeaturedProductsContainer = styled.div`
   display: flex;
   width: auto;
-  height: 300px;
-  flex-direction: column;
+  height: 400px;
+  flex-direction: row;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin: 50px 100px;
+  padding: 50px auto;
   background-color: ${Theme.colors.white};
+`;
+
+export const FeaturedProductsImageWrapper = styled.div`
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+`;
+
+export const FeaturedProductsImage = styled.img`
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 10px;
 `;
